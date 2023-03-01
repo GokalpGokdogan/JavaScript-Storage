@@ -5,25 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="wrapper">
+<header id="up-tab">
+    <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="main bar">
-            <a href="index.html" class="main bar">Home</a>
-            <a href="Lessons/PHYS 101-102.html" class="main bar">PHYS 101-102</a>
-            <button class="CS">CS
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="CS-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            <a href="Lessons/CS 101.html" class="main bar">CS 101</a>
-            <a href="Lessons/CS 102.html" class="main bar">CS 102</a>
+        <nav class="main-bar">
+            <a href="index.html" class="main-bar">Home</a>
+            <div class="main-bar">
+                <button class="dropbtn">PHYS
+                    <i class="fa fa-caret-down"></i>
+                    <div  class="dropdown-content">
+                        <a href="Lessons/PHYS/PHYS 101.html">PHYS 101</a>
+                        <a href="Lessons/PHYS/PHYS 102.html">PHYS 102</a>
+
+                      </div>
+                </button>
+                
+            </div>
+            <div class="main-bar">
+                <button class="dropbtn">CS
+                    <i class="fa fa-caret-down"></i>
+                    <div  class="dropdown-content">
+                        <a href="Lessons/CS/CS 101.html">CS 101</a>
+                        <a href="Lessons/CS/CS 102.html">CS 102</a>
+                        <a href="Lessons/CS/CS 201.html">CS 201</a>
+                        <a href="Lessons/CS/CS 202.html">CS 202</a>
+
+                      </div>
+                </button>
+                
+            </div>
+            <div class="main-bar">
+                <button class="dropbtn">MATH 
+                    <i class="fa fa-caret-down"></i>
+                    <div  class="dropdown-content">
+                        <a href="Lessons/MATH/MATH 101.html">MATH 101</a>
+                        <a href="Lessons/MATH/MATH 102.html">MATH 102</a>
+
+                      </div>
+                </button>
+                
+            </div>
+
+            <div class="main-bar">
+                <button class="dropbtn">OTHER 
+                    <i class="fa fa-caret-down"></i>
+                    <div  class="dropdown-content">
+                        
+
+                      </div>
+                </button>
+                
+            </div>
+            <!-- #region 
+            <a href="CS 101.html" class="main-bar">CS 101</a>
+            <a href="CS 102.html" class="main-bar">CS 102</a>
+            -->
+            
+            <div class="dot"></div>
         </nav>
     </div>
 
@@ -37,29 +79,12 @@
 </section>
 
 <body>
-    
-    <!--
-    <label>Enter Your Scores:</label><br>
-    <label>MT1: </label>
-    <input type="text" id="mt1_text"><br>
-    
-    <label>MT2: </label>
-    <input type="text" id="mt2_text"><br>
-    
-    <label>FINAL: </label>
-    <input type="text" id="final_text"><br>
-    
-    <label>QUIZES: </label>
-    <input type="text" id="quizes_text"><br>
+    <div id="box-content">
+        <p>This section will be updated soon.</p>
+        
+        <script src="index.js"></script>
 
-    <label>LAB: </label>
-    <input type="text" id="lab_text"><br>
-    
-    <label>Your total score is </label>
-    <label id="total_text">0</label>
-    <label> out of 100.</label><br>
-    -->
-    <script src="index.js"></script>
-    
+            
+    </div>
 </body>
 </html>
